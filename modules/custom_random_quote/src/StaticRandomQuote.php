@@ -29,7 +29,7 @@ class StaticRandomQuote implements RandomQuoteInterface {
    *      $json_quotes = file_get_contents($module_path . '/content/quotes.json');
    *      $quotes = json_decode($json_quotes);
    *      // get one random object quote from Quotes Array
-   *      $quote = $quotes[mt_rand(0, count($a) - 1)];
+   *      $quote = $quotes[mt_rand(0, count($quotes) - 1)];
    *
    *      $this->randomQuote = (object) $quote;
    *
