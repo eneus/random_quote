@@ -1,0 +1,4 @@
+services:
+  random_quote_generator.static:
+    class: Drupal\custom_random_quote\StaticRandomQuote
+    decorates: random_quote

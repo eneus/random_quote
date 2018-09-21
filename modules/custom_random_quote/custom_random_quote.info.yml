@@ -1,0 +1,7 @@
+name: Custom Random Quote
+type: module
+description: FFW test task part 1.2
+package: FFW
+core: 8.x
+dependencies:
+  - random_quote

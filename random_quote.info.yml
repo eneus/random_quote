@@ -1,0 +1,5 @@
+name: Random Quote
+type: module
+description: Random Quote - test task FFW Agency
+package: FFW
+core: 8.x

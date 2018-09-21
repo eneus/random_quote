@@ -1,0 +1,15 @@
+random_quote.example:
+  path: '/random-quote'
+  defaults:
+    _title: 'Random Quote'
+    _controller: '\Drupal\random_quote\Controller\RandomQuoteController::build'
+  requirements:
+    _permission: 'access content'
+
+random_quote.settings_form:
+  path: '/admin/config/system/random-quote'
+  defaults:
+    _title: 'Random Quote settings'
+    _form: 'Drupal\random_quote\Form\SettingsForm'
+  requirements:
+    _permission: 'administer Random Quote configuration'
